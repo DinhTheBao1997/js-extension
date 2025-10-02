@@ -1,0 +1,25 @@
+{
+  "name": "test-nodejs",
+  "version": "1.0.0",
+  "description": "Use NodeJS process usually case",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "Dinh The Bao",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jquery": "^3.5.32",
+    "csv-parser": "^3.0.0",
+    "exceljs": "^4.4.0",
+    "ibm_db": "^3.3.0",
+    "node-excel-stream": "^1.2.1",
+    "objects-to-csv": "^1.3.6"
+  },
+  "devDependencies": {}
+}
